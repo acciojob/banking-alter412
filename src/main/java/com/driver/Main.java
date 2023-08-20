@@ -10,6 +10,7 @@ public class Main {
             throw new RuntimeException(e);
         }
 
+
         CurrentAccount ca = null;
         try {
             ca = new CurrentAccount("Test2",200000,"AAABB");
